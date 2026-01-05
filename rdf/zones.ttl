@@ -1,0 +1,17 @@
+@prefix ex: <http://example.org/mobility#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+ex:Zone_Z1 a ex:Zone ;
+    skos:prefLabel "Z1" ;
+    skos:altLabel "A01" ;
+    skos:altLabel "ServiceZone-Z1" ;
+    owl:sameAs ex:A01 ;
+    owl:sameAs ex:ServiceZone_Z1 .
+
+ex:Zone_Z2 a ex:Zone ;
+    skos:prefLabel "Z2" ;
+    skos:altLabel "A02" ;
+    skos:altLabel "ServiceZone-Z2" ;
+    owl:sameAs ex:A02 ;
+    owl:sameAs ex:ServiceZone_Z2 .

@@ -1,0 +1,13 @@
+# Données brutes
+data/silver/*
+data/gold/*
+
+# Environnements virtuels
+env/
+venv/
+
+# Fichiers compilés
+*.aux
+*.log
+*.out
+*.toc

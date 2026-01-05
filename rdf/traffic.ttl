@@ -1,0 +1,8 @@
+@prefix ex: <http://example.org/mobility#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:TRAFFIC_Z1_07 a ex:Traffic ;
+    ex:locatedIn ex:Zone_Z1 ;
+    ex:congestionLevel "MODERATE" ;
+    ex:averageSpeed "35.6"^^xsd:decimal ;
+    ex:hasTimeSlot ex:TS_07_08 .

@@ -1,0 +1,12 @@
+PREFIX ex: <http://example.org/mobility#>
+
+SELECT ?zone ?delay ?congestion
+WHERE {
+  ?bus a ex:Bus ;
+       ex:locatedIn ?zone ;
+       ex:delayMinutes ?delay .
+
+  ?t a ex:Traffic ;
+     ex:locatedIn ?zone ;
+     ex:congestionLevel ?congestion .
+}
