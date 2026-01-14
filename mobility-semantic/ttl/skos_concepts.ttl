@@ -1,0 +1,27 @@
+@prefix mob: <https://purl.org/mobility/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+mob:CONGESTED a skos:Concept ;
+    skos:prefLabel "Congested"@en .
+
+mob:FREE_FLOW a skos:Concept ;
+    skos:prefLabel "Free Flow"@en .
+
+mob:HEAVY a skos:Concept ;
+    skos:prefLabel "Heavy"@en .
+
+mob:MINOR_DELAY a skos:Concept ;
+    skos:prefLabel "Minor Delay"@en .
+
+mob:MODERATE a skos:Concept ;
+    skos:prefLabel "Moderate"@en .
+
+mob:MODERATE_DELAY a skos:Concept ;
+    skos:prefLabel "Moderate Delay"@en .
+
+mob:NO_DELAY a skos:Concept ;
+    skos:prefLabel "No Delay"@en .
+
+mob:SEVERE_DELAY a skos:Concept ;
+    skos:prefLabel "Severe Delay"@en .
+

@@ -1,0 +1,383 @@
+@prefix mob: <https://purl.org/mobility/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/mobility/data/performance/L1_Z1_2025-03-10_7> a mob:AggregatedPerformance ;
+    mob:averageDelayMinutes "11.42"^^xsd:float ;
+    mob:averageSpeedKmh "13.94"^^xsd:float ;
+    mob:delayRatePercent "100.0"^^xsd:float ;
+    mob:maxDelayMinutes "16.0"^^xsd:float ;
+    mob:performanceDate "2025-03-10"^^xsd:date ;
+    mob:performanceHour 7 ;
+    mob:route <https://example.org/mobility/data/route/L1> ;
+    mob:zone <https://example.org/mobility/data/zone/Z1> .
+
+<https://example.org/mobility/data/performance/L1_Z1_2025-03-10_8> a mob:AggregatedPerformance ;
+    mob:averageDelayMinutes "14.43"^^xsd:float ;
+    mob:averageSpeedKmh "12.83"^^xsd:float ;
+    mob:delayRatePercent "100.0"^^xsd:float ;
+    mob:maxDelayMinutes "16.0"^^xsd:float ;
+    mob:performanceDate "2025-03-10"^^xsd:date ;
+    mob:performanceHour 8 ;
+    mob:route <https://example.org/mobility/data/route/L1> ;
+    mob:zone <https://example.org/mobility/data/zone/Z1> .
+
+<https://example.org/mobility/data/performance/L1_Z2_2025-03-10_7> a mob:AggregatedPerformance ;
+    mob:averageDelayMinutes "10.38"^^xsd:float ;
+    mob:averageSpeedKmh "28.18"^^xsd:float ;
+    mob:delayRatePercent "100.0"^^xsd:float ;
+    mob:maxDelayMinutes "12.0"^^xsd:float ;
+    mob:performanceDate "2025-03-10"^^xsd:date ;
+    mob:performanceHour 7 ;
+    mob:route <https://example.org/mobility/data/route/L1> ;
+    mob:zone <https://example.org/mobility/data/zone/Z2> .
+
+<https://example.org/mobility/data/performance/L1_Z2_2025-03-10_8> a mob:AggregatedPerformance ;
+    mob:averageDelayMinutes "10.13"^^xsd:float ;
+    mob:averageSpeedKmh "26.71"^^xsd:float ;
+    mob:delayRatePercent "100.0"^^xsd:float ;
+    mob:maxDelayMinutes "12.0"^^xsd:float ;
+    mob:performanceDate "2025-03-10"^^xsd:date ;
+    mob:performanceHour 8 ;
+    mob:route <https://example.org/mobility/data/route/L1> ;
+    mob:zone <https://example.org/mobility/data/zone/Z2> .
+
+<https://example.org/mobility/data/performance/L1_Z4_2025-03-10_8> a mob:AggregatedPerformance ;
+    mob:averageDelayMinutes "10.11"^^xsd:float ;
+    mob:averageSpeedKmh "27.26"^^xsd:float ;
+    mob:delayRatePercent "100.0"^^xsd:float ;
+    mob:maxDelayMinutes "12.0"^^xsd:float ;
+    mob:performanceDate "2025-03-10"^^xsd:date ;
+    mob:performanceHour 8 ;
+    mob:route <https://example.org/mobility/data/route/L1> ;
+    mob:zone <https://example.org/mobility/data/zone/Z4> .
+
+<https://example.org/mobility/data/performance/L1_Z4_2025-03-10_9> a mob:AggregatedPerformance ;
+    mob:averageDelayMinutes "7.11"^^xsd:float ;
+    mob:averageSpeedKmh "26.62"^^xsd:float ;
+    mob:delayRatePercent "83.33"^^xsd:float ;
+    mob:maxDelayMinutes "11.0"^^xsd:float ;
+    mob:performanceDate "2025-03-10"^^xsd:date ;
+    mob:performanceHour 9 ;
+    mob:route <https://example.org/mobility/data/route/L1> ;
+    mob:zone <https://example.org/mobility/data/zone/Z4> .
+
+<https://example.org/mobility/data/performance/L2_Z1_2025-03-10_8> a mob:AggregatedPerformance ;
+    mob:averageDelayMinutes "14.35"^^xsd:float ;
+    mob:averageSpeedKmh "13.39"^^xsd:float ;
+    mob:delayRatePercent "100.0"^^xsd:float ;
+    mob:maxDelayMinutes "16.0"^^xsd:float ;
+    mob:performanceDate "2025-03-10"^^xsd:date ;
+    mob:performanceHour 8 ;
+    mob:route <https://example.org/mobility/data/route/L2> ;
+    mob:zone <https://example.org/mobility/data/zone/Z1> .
+
+<https://example.org/mobility/data/performance/L2_Z6_2025-03-10_7> a mob:AggregatedPerformance ;
+    mob:averageDelayMinutes "11.59"^^xsd:float ;
+    mob:averageSpeedKmh "14.26"^^xsd:float ;
+    mob:delayRatePercent "100.0"^^xsd:float ;
+    mob:maxDelayMinutes "15.0"^^xsd:float ;
+    mob:performanceDate "2025-03-10"^^xsd:date ;
+    mob:performanceHour 7 ;
+    mob:route <https://example.org/mobility/data/route/L2> ;
+    mob:zone <https://example.org/mobility/data/zone/Z6> .
+
+<https://example.org/mobility/data/performance/L2_Z6_2025-03-10_8> a mob:AggregatedPerformance ;
+    mob:averageDelayMinutes "15.0"^^xsd:float ;
+    mob:averageSpeedKmh "12.0"^^xsd:float ;
+    mob:delayRatePercent "100.0"^^xsd:float ;
+    mob:maxDelayMinutes "15.0"^^xsd:float ;
+    mob:performanceDate "2025-03-10"^^xsd:date ;
+    mob:performanceHour 8 ;
+    mob:route <https://example.org/mobility/data/route/L2> ;
+    mob:zone <https://example.org/mobility/data/zone/Z6> .
+
+<https://example.org/mobility/data/performance/L2_Z8_2025-03-10_8> a mob:AggregatedPerformance ;
+    mob:averageDelayMinutes "10.26"^^xsd:float ;
+    mob:averageSpeedKmh "26.14"^^xsd:float ;
+    mob:delayRatePercent "100.0"^^xsd:float ;
+    mob:maxDelayMinutes "12.0"^^xsd:float ;
+    mob:performanceDate "2025-03-10"^^xsd:date ;
+    mob:performanceHour 8 ;
+    mob:route <https://example.org/mobility/data/route/L2> ;
+    mob:zone <https://example.org/mobility/data/zone/Z8> .
+
+<https://example.org/mobility/data/performance/L2_Z8_2025-03-10_9> a mob:AggregatedPerformance ;
+    mob:averageDelayMinutes "7.14"^^xsd:float ;
+    mob:averageSpeedKmh "26.36"^^xsd:float ;
+    mob:delayRatePercent "76.19"^^xsd:float ;
+    mob:maxDelayMinutes "10.0"^^xsd:float ;
+    mob:performanceDate "2025-03-10"^^xsd:date ;
+    mob:performanceHour 9 ;
+    mob:route <https://example.org/mobility/data/route/L2> ;
+    mob:zone <https://example.org/mobility/data/zone/Z8> .
+
+<https://example.org/mobility/data/performance/L3_Z3_2025-03-10_7> a mob:AggregatedPerformance ;
+    mob:averageDelayMinutes "4.39"^^xsd:float ;
+    mob:averageSpeedKmh "25.43"^^xsd:float ;
+    mob:delayRatePercent "21.33"^^xsd:float ;
+    mob:maxDelayMinutes "8.0"^^xsd:float ;
+    mob:performanceDate "2025-03-10"^^xsd:date ;
+    mob:performanceHour 7 ;
+    mob:route <https://example.org/mobility/data/route/L3> ;
+    mob:zone <https://example.org/mobility/data/zone/Z3> .
+
+<https://example.org/mobility/data/performance/L3_Z3_2025-03-10_8> a mob:AggregatedPerformance ;
+    mob:averageDelayMinutes "6.2"^^xsd:float ;
+    mob:averageSpeedKmh "23.64"^^xsd:float ;
+    mob:delayRatePercent "80.0"^^xsd:float ;
+    mob:maxDelayMinutes "8.0"^^xsd:float ;
+    mob:performanceDate "2025-03-10"^^xsd:date ;
+    mob:performanceHour 8 ;
+    mob:route <https://example.org/mobility/data/route/L3> ;
+    mob:zone <https://example.org/mobility/data/zone/Z3> .
+
+<https://example.org/mobility/data/performance/L3_Z4_2025-03-10_7> a mob:AggregatedPerformance ;
+    mob:averageDelayMinutes "5.0"^^xsd:float ;
+    mob:averageSpeedKmh "24.66"^^xsd:float ;
+    mob:delayRatePercent "25.0"^^xsd:float ;
+    mob:maxDelayMinutes "7.0"^^xsd:float ;
+    mob:performanceDate "2025-03-10"^^xsd:date ;
+    mob:performanceHour 7 ;
+    mob:route <https://example.org/mobility/data/route/L3> ;
+    mob:zone <https://example.org/mobility/data/zone/Z4> .
+
+<https://example.org/mobility/data/performance/L3_Z4_2025-03-10_8> a mob:AggregatedPerformance ;
+    mob:averageDelayMinutes "6.01"^^xsd:float ;
+    mob:averageSpeedKmh "27.29"^^xsd:float ;
+    mob:delayRatePercent "55.56"^^xsd:float ;
+    mob:maxDelayMinutes "8.0"^^xsd:float ;
+    mob:performanceDate "2025-03-10"^^xsd:date ;
+    mob:performanceHour 8 ;
+    mob:route <https://example.org/mobility/data/route/L3> ;
+    mob:zone <https://example.org/mobility/data/zone/Z4> .
+
+<https://example.org/mobility/data/performance/L3_Z5_2025-03-10_8> a mob:AggregatedPerformance ;
+    mob:averageDelayMinutes "5.81"^^xsd:float ;
+    mob:averageSpeedKmh "25.41"^^xsd:float ;
+    mob:delayRatePercent "53.49"^^xsd:float ;
+    mob:maxDelayMinutes "8.0"^^xsd:float ;
+    mob:performanceDate "2025-03-10"^^xsd:date ;
+    mob:performanceHour 8 ;
+    mob:route <https://example.org/mobility/data/route/L3> ;
+    mob:zone <https://example.org/mobility/data/zone/Z5> .
+
+<https://example.org/mobility/data/performance/L3_Z5_2025-03-10_9> a mob:AggregatedPerformance ;
+    mob:averageDelayMinutes "3.14"^^xsd:float ;
+    mob:averageSpeedKmh "27.44"^^xsd:float ;
+    mob:delayRatePercent "2.7"^^xsd:float ;
+    mob:maxDelayMinutes "6.0"^^xsd:float ;
+    mob:performanceDate "2025-03-10"^^xsd:date ;
+    mob:performanceHour 9 ;
+    mob:route <https://example.org/mobility/data/route/L3> ;
+    mob:zone <https://example.org/mobility/data/zone/Z5> .
+
+<https://example.org/mobility/data/performance/L5_Z2_2025-03-10_7> a mob:AggregatedPerformance ;
+    mob:averageDelayMinutes "7.38"^^xsd:float ;
+    mob:averageSpeedKmh "26.99"^^xsd:float ;
+    mob:delayRatePercent "80.0"^^xsd:float ;
+    mob:maxDelayMinutes "9.0"^^xsd:float ;
+    mob:performanceDate "2025-03-10"^^xsd:date ;
+    mob:performanceHour 7 ;
+    mob:route <https://example.org/mobility/data/route/L5> ;
+    mob:zone <https://example.org/mobility/data/zone/Z2> .
+
+<https://example.org/mobility/data/performance/L5_Z3_2025-03-10_7> a mob:AggregatedPerformance ;
+    mob:averageDelayMinutes "10.0"^^xsd:float ;
+    mob:averageSpeedKmh "24.72"^^xsd:float ;
+    mob:delayRatePercent "88.24"^^xsd:float ;
+    mob:maxDelayMinutes "12.0"^^xsd:float ;
+    mob:performanceDate "2025-03-10"^^xsd:date ;
+    mob:performanceHour 7 ;
+    mob:route <https://example.org/mobility/data/route/L5> ;
+    mob:zone <https://example.org/mobility/data/zone/Z3> .
+
+<https://example.org/mobility/data/performance/L5_Z3_2025-03-10_8> a mob:AggregatedPerformance ;
+    mob:averageDelayMinutes "10.0"^^xsd:float ;
+    mob:averageSpeedKmh "26.52"^^xsd:float ;
+    mob:delayRatePercent "100.0"^^xsd:float ;
+    mob:maxDelayMinutes "12.0"^^xsd:float ;
+    mob:performanceDate "2025-03-10"^^xsd:date ;
+    mob:performanceHour 8 ;
+    mob:route <https://example.org/mobility/data/route/L5> ;
+    mob:zone <https://example.org/mobility/data/zone/Z3> .
+
+<https://example.org/mobility/data/performance/L5_Z6_2025-03-10_8> a mob:AggregatedPerformance ;
+    mob:averageDelayMinutes "13.38"^^xsd:float ;
+    mob:averageSpeedKmh "14.69"^^xsd:float ;
+    mob:delayRatePercent "100.0"^^xsd:float ;
+    mob:maxDelayMinutes "16.0"^^xsd:float ;
+    mob:performanceDate "2025-03-10"^^xsd:date ;
+    mob:performanceHour 8 ;
+    mob:route <https://example.org/mobility/data/route/L5> ;
+    mob:zone <https://example.org/mobility/data/zone/Z6> .
+
+<https://example.org/mobility/data/performance/L5_Z6_2025-03-10_9> a mob:AggregatedPerformance ;
+    mob:averageDelayMinutes "10.0"^^xsd:float ;
+    mob:averageSpeedKmh "14.7"^^xsd:float ;
+    mob:delayRatePercent "100.0"^^xsd:float ;
+    mob:maxDelayMinutes "13.0"^^xsd:float ;
+    mob:performanceDate "2025-03-10"^^xsd:date ;
+    mob:performanceHour 9 ;
+    mob:route <https://example.org/mobility/data/route/L5> ;
+    mob:zone <https://example.org/mobility/data/zone/Z6> .
+
+<https://example.org/mobility/data/performance/L6_Z1_2025-03-10_8> a mob:AggregatedPerformance ;
+    mob:averageDelayMinutes "12.81"^^xsd:float ;
+    mob:averageSpeedKmh "13.39"^^xsd:float ;
+    mob:delayRatePercent "100.0"^^xsd:float ;
+    mob:maxDelayMinutes "16.0"^^xsd:float ;
+    mob:performanceDate "2025-03-10"^^xsd:date ;
+    mob:performanceHour 8 ;
+    mob:route <https://example.org/mobility/data/route/L6> ;
+    mob:zone <https://example.org/mobility/data/zone/Z1> .
+
+<https://example.org/mobility/data/performance/L6_Z1_2025-03-10_9> a mob:AggregatedPerformance ;
+    mob:averageDelayMinutes "10.96"^^xsd:float ;
+    mob:averageSpeedKmh "14.0"^^xsd:float ;
+    mob:delayRatePercent "100.0"^^xsd:float ;
+    mob:maxDelayMinutes "13.0"^^xsd:float ;
+    mob:performanceDate "2025-03-10"^^xsd:date ;
+    mob:performanceHour 9 ;
+    mob:route <https://example.org/mobility/data/route/L6> ;
+    mob:zone <https://example.org/mobility/data/zone/Z1> .
+
+<https://example.org/mobility/data/performance/L6_Z4_2025-03-10_8> a mob:AggregatedPerformance ;
+    mob:averageDelayMinutes "10.01"^^xsd:float ;
+    mob:averageSpeedKmh "26.71"^^xsd:float ;
+    mob:delayRatePercent "100.0"^^xsd:float ;
+    mob:maxDelayMinutes "12.0"^^xsd:float ;
+    mob:performanceDate "2025-03-10"^^xsd:date ;
+    mob:performanceHour 8 ;
+    mob:route <https://example.org/mobility/data/route/L6> ;
+    mob:zone <https://example.org/mobility/data/zone/Z4> .
+
+<https://example.org/mobility/data/performance/L6_Z8_2025-03-10_7> a mob:AggregatedPerformance ;
+    mob:averageDelayMinutes "8.3"^^xsd:float ;
+    mob:averageSpeedKmh "26.07"^^xsd:float ;
+    mob:delayRatePercent "89.55"^^xsd:float ;
+    mob:maxDelayMinutes "12.0"^^xsd:float ;
+    mob:performanceDate "2025-03-10"^^xsd:date ;
+    mob:performanceHour 7 ;
+    mob:route <https://example.org/mobility/data/route/L6> ;
+    mob:zone <https://example.org/mobility/data/zone/Z8> .
+
+<https://example.org/mobility/data/performance/L6_Z8_2025-03-10_8> a mob:AggregatedPerformance ;
+    mob:averageDelayMinutes "9.54"^^xsd:float ;
+    mob:averageSpeedKmh "26.04"^^xsd:float ;
+    mob:delayRatePercent "100.0"^^xsd:float ;
+    mob:maxDelayMinutes "12.0"^^xsd:float ;
+    mob:performanceDate "2025-03-10"^^xsd:date ;
+    mob:performanceHour 8 ;
+    mob:route <https://example.org/mobility/data/route/L6> ;
+    mob:zone <https://example.org/mobility/data/zone/Z8> .
+
+<https://example.org/mobility/data/performance/L7_Z2_2025-03-10_7> a mob:AggregatedPerformance ;
+    mob:averageDelayMinutes "5.97"^^xsd:float ;
+    mob:averageSpeedKmh "26.47"^^xsd:float ;
+    mob:delayRatePercent "62.86"^^xsd:float ;
+    mob:maxDelayMinutes "8.0"^^xsd:float ;
+    mob:performanceDate "2025-03-10"^^xsd:date ;
+    mob:performanceHour 7 ;
+    mob:route <https://example.org/mobility/data/route/L7> ;
+    mob:zone <https://example.org/mobility/data/zone/Z2> .
+
+<https://example.org/mobility/data/performance/L7_Z2_2025-03-10_8> a mob:AggregatedPerformance ;
+    mob:averageDelayMinutes "6.01"^^xsd:float ;
+    mob:averageSpeedKmh "27.58"^^xsd:float ;
+    mob:delayRatePercent "63.53"^^xsd:float ;
+    mob:maxDelayMinutes "8.0"^^xsd:float ;
+    mob:performanceDate "2025-03-10"^^xsd:date ;
+    mob:performanceHour 8 ;
+    mob:route <https://example.org/mobility/data/route/L7> ;
+    mob:zone <https://example.org/mobility/data/zone/Z2> .
+
+<https://example.org/mobility/data/performance/L7_Z5_2025-03-10_7> a mob:AggregatedPerformance ;
+    mob:averageDelayMinutes "3.29"^^xsd:float ;
+    mob:averageSpeedKmh "25.84"^^xsd:float ;
+    mob:delayRatePercent "4.17"^^xsd:float ;
+    mob:maxDelayMinutes "8.0"^^xsd:float ;
+    mob:performanceDate "2025-03-10"^^xsd:date ;
+    mob:performanceHour 7 ;
+    mob:route <https://example.org/mobility/data/route/L7> ;
+    mob:zone <https://example.org/mobility/data/zone/Z5> .
+
+<https://example.org/mobility/data/performance/L7_Z7_2025-03-10_8> a mob:AggregatedPerformance ;
+    mob:averageDelayMinutes "5.74"^^xsd:float ;
+    mob:averageSpeedKmh "26.74"^^xsd:float ;
+    mob:delayRatePercent "49.47"^^xsd:float ;
+    mob:maxDelayMinutes "8.0"^^xsd:float ;
+    mob:performanceDate "2025-03-10"^^xsd:date ;
+    mob:performanceHour 8 ;
+    mob:route <https://example.org/mobility/data/route/L7> ;
+    mob:zone <https://example.org/mobility/data/zone/Z7> .
+
+<https://example.org/mobility/data/performance/L7_Z7_2025-03-10_9> a mob:AggregatedPerformance ;
+    mob:averageDelayMinutes "3.24"^^xsd:float ;
+    mob:averageSpeedKmh "25.22"^^xsd:float ;
+    mob:delayRatePercent "12.0"^^xsd:float ;
+    mob:maxDelayMinutes "7.0"^^xsd:float ;
+    mob:performanceDate "2025-03-10"^^xsd:date ;
+    mob:performanceHour 9 ;
+    mob:route <https://example.org/mobility/data/route/L7> ;
+    mob:zone <https://example.org/mobility/data/zone/Z7> .
+
+<https://example.org/mobility/data/performance/L8_Z3_2025-03-10_7> a mob:AggregatedPerformance ;
+    mob:averageDelayMinutes "10.29"^^xsd:float ;
+    mob:averageSpeedKmh "27.57"^^xsd:float ;
+    mob:delayRatePercent "100.0"^^xsd:float ;
+    mob:maxDelayMinutes "12.0"^^xsd:float ;
+    mob:performanceDate "2025-03-10"^^xsd:date ;
+    mob:performanceHour 7 ;
+    mob:route <https://example.org/mobility/data/route/L8> ;
+    mob:zone <https://example.org/mobility/data/zone/Z3> .
+
+<https://example.org/mobility/data/performance/L8_Z3_2025-03-10_8> a mob:AggregatedPerformance ;
+    mob:averageDelayMinutes "10.06"^^xsd:float ;
+    mob:averageSpeedKmh "26.94"^^xsd:float ;
+    mob:delayRatePercent "100.0"^^xsd:float ;
+    mob:maxDelayMinutes "12.0"^^xsd:float ;
+    mob:performanceDate "2025-03-10"^^xsd:date ;
+    mob:performanceHour 8 ;
+    mob:route <https://example.org/mobility/data/route/L8> ;
+    mob:zone <https://example.org/mobility/data/zone/Z3> .
+
+<https://example.org/mobility/data/performance/L8_Z6_2025-03-10_7> a mob:AggregatedPerformance ;
+    mob:averageDelayMinutes "11.49"^^xsd:float ;
+    mob:averageSpeedKmh "13.68"^^xsd:float ;
+    mob:delayRatePercent "100.0"^^xsd:float ;
+    mob:maxDelayMinutes "16.0"^^xsd:float ;
+    mob:performanceDate "2025-03-10"^^xsd:date ;
+    mob:performanceHour 7 ;
+    mob:route <https://example.org/mobility/data/route/L8> ;
+    mob:zone <https://example.org/mobility/data/zone/Z6> .
+
+<https://example.org/mobility/data/performance/L8_Z6_2025-03-10_8> a mob:AggregatedPerformance ;
+    mob:averageDelayMinutes "13.88"^^xsd:float ;
+    mob:averageSpeedKmh "13.11"^^xsd:float ;
+    mob:delayRatePercent "100.0"^^xsd:float ;
+    mob:maxDelayMinutes "16.0"^^xsd:float ;
+    mob:performanceDate "2025-03-10"^^xsd:date ;
+    mob:performanceHour 8 ;
+    mob:route <https://example.org/mobility/data/route/L8> ;
+    mob:zone <https://example.org/mobility/data/zone/Z6> .
+
+<https://example.org/mobility/data/performance/L8_Z8_2025-03-10_8> a mob:AggregatedPerformance ;
+    mob:averageDelayMinutes "9.68"^^xsd:float ;
+    mob:averageSpeedKmh "26.86"^^xsd:float ;
+    mob:delayRatePercent "100.0"^^xsd:float ;
+    mob:maxDelayMinutes "12.0"^^xsd:float ;
+    mob:performanceDate "2025-03-10"^^xsd:date ;
+    mob:performanceHour 8 ;
+    mob:route <https://example.org/mobility/data/route/L8> ;
+    mob:zone <https://example.org/mobility/data/zone/Z8> .
+
+<https://example.org/mobility/data/performance/L8_Z8_2025-03-10_9> a mob:AggregatedPerformance ;
+    mob:averageDelayMinutes "7.23"^^xsd:float ;
+    mob:averageSpeedKmh "25.21"^^xsd:float ;
+    mob:delayRatePercent "80.33"^^xsd:float ;
+    mob:maxDelayMinutes "11.0"^^xsd:float ;
+    mob:performanceDate "2025-03-10"^^xsd:date ;
+    mob:performanceHour 9 ;
+    mob:route <https://example.org/mobility/data/route/L8> ;
+    mob:zone <https://example.org/mobility/data/zone/Z8> .
+

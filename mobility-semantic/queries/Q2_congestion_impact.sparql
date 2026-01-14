@@ -1,0 +1,27 @@
+PREFIX mob: <https://purl.org/mobility/ontology#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?zoneLabel 
+       (AVG(?trafficSpeed) AS ?avgTrafficSpeed) 
+       (AVG(?busSpeed) AS ?avgBusSpeed)
+       (AVG(?delayMin) AS ?avgDelay)
+WHERE {
+  # Bus trips with delay
+  ?trip a mob:Trip ;
+        mob:observedInZone ?zone ;
+        mob:instantaneousSpeed ?busSpeed ;
+        mob:hasDelayEvent/mob:delayMinutes ?delayMin .
+  
+  # Traffic observation in same zone (approx. same hour)
+  ?trafficObs a mob:TrafficObservation ;
+              mob:observedInZone ?zone ;
+              mob:averageSpeed ?trafficSpeed .
+  
+  ?zone rdfs:label ?zoneLabel .
+  
+  # Optionnel : filtre temporel approximatif (même jour/heure)
+  # (tu peux l'ajouter si tu veux plus de précision)
+}
+GROUP BY ?zoneLabel
+HAVING (AVG(?delayMin) > 8.0)  # zones avec retards moyens significatifs
+ORDER BY DESC(?avgDelay)

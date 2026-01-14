@@ -1,6 +1,0 @@
-@prefix ex: <http://example.org/mobility#> .
-
-ex:PLAN_L1_Z1 a ex:Planning ;
-    ex:travelsOn ex:Line_L1 ;
-    ex:locatedIn ex:Zone_Z1 ;
-    ex:hasTimeSlot ex:TS_07_08 .

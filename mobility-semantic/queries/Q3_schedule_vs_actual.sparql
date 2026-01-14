@@ -1,0 +1,26 @@
+PREFIX mob: <https://purl.org/mobility/ontology#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?routeId ?scheduledTime ?actualTime ?delayMin
+WHERE {
+  # Planifié
+  ?schedule a mob:Schedule ;
+            mob:belongsToRoute ?route ;
+            mob:scheduledTime ?scheduledTime .
+  
+  # Réel
+  ?trip a mob:Trip ;
+        mob:operatesOnRoute ?route ;
+        mob:recordedAt ?actualTime ;
+        mob:hasDelayEvent/mob:delayMinutes ?delayMin .
+  
+  # Extraire l'ID de la route pour affichage
+  BIND(REPLACE(STR(?route), ".*route/", "") AS ?routeId)
+  
+  # Filtrer sur les heures de pointe
+  ?schedule mob:isPeakSchedule true .
+  
+  FILTER(?delayMin > 10.0)
+}
+ORDER BY DESC(?delayMin)
+LIMIT 20

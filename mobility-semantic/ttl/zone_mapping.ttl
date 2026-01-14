@@ -1,0 +1,35 @@
+@prefix mob: <https://purl.org/mobility/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://example.org/mobility/data/zone/Z1> a mob:ServiceZone ;
+    rdfs:label "ServiceZone-Z1" ;
+    mob:hasAreaCode "A01" .
+
+<https://example.org/mobility/data/zone/Z2> a mob:ServiceZone ;
+    rdfs:label "ServiceZone-Z2" ;
+    mob:hasAreaCode "A02" .
+
+<https://example.org/mobility/data/zone/Z3> a mob:ServiceZone ;
+    rdfs:label "ServiceZone-Z3" ;
+    mob:hasAreaCode "A03" .
+
+<https://example.org/mobility/data/zone/Z4> a mob:ServiceZone ;
+    rdfs:label "ServiceZone-Z4" ;
+    mob:hasAreaCode "A04" .
+
+<https://example.org/mobility/data/zone/Z5> a mob:ServiceZone ;
+    rdfs:label "ServiceZone-Z5" ;
+    mob:hasAreaCode "A05" .
+
+<https://example.org/mobility/data/zone/Z6> a mob:ServiceZone ;
+    rdfs:label "ServiceZone-Z6" ;
+    mob:hasAreaCode "A06" .
+
+<https://example.org/mobility/data/zone/Z7> a mob:ServiceZone ;
+    rdfs:label "ServiceZone-Z7" ;
+    mob:hasAreaCode "A07" .
+
+<https://example.org/mobility/data/zone/Z8> a mob:ServiceZone ;
+    rdfs:label "ServiceZone-Z8" ;
+    mob:hasAreaCode "A08" .
+

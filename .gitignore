@@ -1,7 +1,8 @@
 # Données brutes
 data/silver/*
 data/gold/*
-
+*data
+mobile_data/data/*
 # Environnements virtuels
 env/
 venv/

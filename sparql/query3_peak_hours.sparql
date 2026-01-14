@@ -1,9 +1,0 @@
-PREFIX ex: <http://example.org/mobility#>
-
-SELECT ?isPeakHour (AVG(?delay) AS ?avgDelay)
-WHERE {
-  ?bus a ex:Bus ;
-       ex:isPeakHour ?isPeakHour ;
-       ex:delayMinutes ?delay .
-}
-GROUP BY ?isPeakHour

@@ -1,0 +1,30 @@
+
+PREFIX mob: <https://purl.org/mobility/ontology#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?zoneLabel 
+       (AVG(?delayMin) AS ?avgDelay) 
+       (AVG(?trafficVolume) AS ?avgVolume)
+       (MAX(?congestionLevel) AS ?worstCongestion)
+WHERE {
+  ?trip a mob:Trip ;
+        mob:observedInZone ?zone ;
+        mob:hasDelayEvent/mob:delayMinutes ?delayMin .
+  
+  ?trafficObs a mob:TrafficObservation ;
+              mob:observedInZone ?zone ;
+              mob:trafficVolume ?trafficVolume ;
+              mob:congestionLevel ?congLevel .
+  
+  ?zone rdfs:label ?zoneLabel .
+  
+  # Convertir le niveau de congestion en score (optionnel, mais utile)
+  BIND(
+    IF(?congLevel = mob:CONGESTED, 4,
+    IF(?congLevel = mob:HEAVY, 3,
+    IF(?congLevel = mob:MODERATE, 2, 1))) AS ?congestionLevel
+  )
+}
+GROUP BY ?zoneLabel
+HAVING (AVG(?delayMin) > 9.0 && AVG(?trafficVolume) > 100)
+ORDER BY DESC(?avgDelay)

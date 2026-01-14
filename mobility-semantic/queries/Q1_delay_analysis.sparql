@@ -1,0 +1,21 @@
+PREFIX mob: <https://purl.org/mobility/ontology#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?zoneLabel ?delayCategoryLabel (COUNT(?trip) AS ?tripCount) (AVG(?delayMin) AS ?avgDelayMinutes)
+WHERE {
+  ?trip a mob:Trip ;
+        mob:observedInZone ?zone ;
+        mob:hasDelayEvent ?delayEvent .
+  
+  ?zone rdfs:label ?zoneLabel .
+  
+  ?delayEvent mob:delayMinutes ?delayMin ;
+              mob:delayCategory ?cat .
+  
+  ?cat skos:prefLabel ?delayCategoryLabel .
+  
+  FILTER(?delayMin > 5.0)  # Seulement les retards > 5 min
+}
+GROUP BY ?zoneLabel ?delayCategoryLabel
+ORDER BY DESC(?tripCount)

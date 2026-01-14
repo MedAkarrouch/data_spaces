@@ -1,0 +1,1408 @@
+@prefix mob: <https://purl.org/mobility/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/mobility/data/schedule/L1_Z1_weekday_12-00-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z1> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L1> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 15 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "12:00:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L1_Z1_weekday_12-50-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z1> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L1> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 15 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "12:50:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L1_Z2_weekday_09-00-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z2> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L1> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 6 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "09:00:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L1_Z2_weekday_09-10-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z2> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L1> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 8 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "09:10:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L1_Z2_weekend_11-10-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z2> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L1> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 12 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "11:10:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L1_Z3_weekday_07-30-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z3> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L1> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 10 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "07:30:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L1_Z4_weekday_10-00-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z4> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L1> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 12 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "10:00:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L1_Z4_weekday_10-40-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z4> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L1> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 6 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "10:40:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L1_Z4_weekend_07-50-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z4> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L1> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 8 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "07:50:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L1_Z5_weekday_07-00-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z5> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L1> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 6 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "07:00:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L1_Z5_weekday_08-50-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z5> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L1> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 10 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "08:50:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L1_Z5_weekday_09-20-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z5> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L1> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 10 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "09:20:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L1_Z5_weekday_09-50-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z5> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L1> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 6 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "09:50:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L1_Z5_weekday_11-20-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z5> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L1> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 8 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "11:20:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L1_Z5_weekday_11-30-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z5> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L1> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 6 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "11:30:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L1_Z5_weekend_07-00-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z5> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L1> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 12 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "07:00:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L1_Z5_weekend_12-30-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z5> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L1> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 6 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "12:30:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L1_Z6_weekday_07-30-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z6> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L1> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 10 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "07:30:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L1_Z6_weekday_07-50-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z6> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L1> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 6 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "07:50:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L1_Z6_weekday_12-20-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z6> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L1> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 10 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "12:20:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L1_Z6_weekend_07-00-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z6> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L1> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 15 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "07:00:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L1_Z7_weekend_07-50-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z7> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L1> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 8 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "07:50:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L1_Z7_weekend_10-40-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z7> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L1> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 8 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "10:40:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L1_Z7_weekend_11-20-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z7> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L1> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 12 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "11:20:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L1_Z7_weekend_11-50-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z7> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L1> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 15 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "11:50:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L1_Z7_weekend_12-30-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z7> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L1> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 8 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "12:30:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L1_Z8_weekday_10-20-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z8> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L1> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 12 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "10:20:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L1_Z8_weekday_11-50-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z8> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L1> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 15 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "11:50:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L2_Z1_weekday_10-50-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z1> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L2> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 12 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "10:50:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L2_Z1_weekend_11-00-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z1> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L2> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 10 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "11:00:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L2_Z2_weekday_09-10-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z2> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L2> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 8 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "09:10:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L2_Z2_weekday_10-20-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z2> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L2> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 15 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "10:20:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L2_Z2_weekday_10-50-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z2> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L2> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 12 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "10:50:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L2_Z2_weekday_11-20-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z2> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L2> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 12 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "11:20:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L2_Z2_weekday_12-50-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z2> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L2> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 12 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "12:50:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L2_Z3_weekday_10-30-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z3> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L2> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 6 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "10:30:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L2_Z3_weekend_11-00-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z3> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L2> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 15 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "11:00:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L2_Z4_weekday_11-30-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z4> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L2> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 6 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "11:30:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L2_Z4_weekend_12-30-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z4> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L2> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 12 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "12:30:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L2_Z5_weekday_07-10-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z5> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L2> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 8 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "07:10:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L2_Z5_weekday_09-50-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z5> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L2> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 10 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "09:50:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L2_Z5_weekday_11-20-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z5> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L2> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 8 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "11:20:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L2_Z5_weekend_08-10-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z5> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L2> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 8 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "08:10:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L2_Z5_weekend_09-30-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z5> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L2> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 10 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "09:30:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L2_Z6_weekend_08-40-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z6> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L2> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 15 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "08:40:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L2_Z6_weekend_12-30-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z6> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L2> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 15 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "12:30:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L2_Z7_weekday_10-10-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z7> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L2> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 12 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "10:10:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L2_Z7_weekend_12-50-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z7> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L2> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 15 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "12:50:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L2_Z8_weekday_07-30-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z8> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L2> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 8 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "07:30:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L2_Z8_weekday_12-20-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z8> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L2> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 15 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "12:20:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L2_Z8_weekend_07-10-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z8> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L2> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 10 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "07:10:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L2_Z8_weekend_09-00-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z8> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L2> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 8,
+        10 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "09:00:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L3_Z1_weekday_12-10-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z1> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L3> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 15 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "12:10:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L3_Z1_weekend_10-50-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z1> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L3> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 8 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "10:50:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L3_Z2_weekday_12-50-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z2> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L3> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 6 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "12:50:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L3_Z2_weekend_11-10-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z2> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L3> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 10 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "11:10:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L3_Z2_weekend_12-40-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z2> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L3> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 15 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "12:40:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L3_Z3_weekday_09-40-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z3> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L3> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 10 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "09:40:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L3_Z3_weekday_12-30-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z3> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L3> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 15 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "12:30:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L3_Z3_weekday_12-40-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z3> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L3> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 6 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "12:40:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L3_Z3_weekend_08-50-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z3> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L3> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 10 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "08:50:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L3_Z4_weekend_10-30-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z4> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L3> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 8 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "10:30:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L3_Z4_weekend_11-50-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z4> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L3> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 10 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "11:50:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L3_Z5_weekend_08-20-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z5> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L3> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 15 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "08:20:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L3_Z5_weekend_11-20-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z5> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L3> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 6 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "11:20:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L3_Z6_weekday_10-50-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z6> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L3> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 8 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "10:50:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L3_Z6_weekend_11-30-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z6> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L3> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 10 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "11:30:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L3_Z7_weekend_11-00-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z7> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L3> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 10 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "11:00:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L3_Z8_weekday_09-00-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z8> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L3> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 10 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "09:00:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L3_Z8_weekday_10-10-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z8> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L3> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 6 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "10:10:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L3_Z8_weekend_07-30-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z8> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L3> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 10 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "07:30:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L4_Z1_weekday_11-30-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z1> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L4> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 6 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "11:30:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L4_Z1_weekday_12-00-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z1> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L4> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 12 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "12:00:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L4_Z1_weekend_07-00-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z1> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L4> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 10 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "07:00:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L4_Z2_weekday_08-00-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z2> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L4> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 6 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "08:00:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L4_Z3_weekend_08-20-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z3> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L4> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 10 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "08:20:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L4_Z4_weekday_12-40-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z4> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L4> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 12 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "12:40:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L4_Z4_weekend_07-50-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z4> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L4> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 10 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "07:50:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L4_Z4_weekend_08-40-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z4> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L4> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 10 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "08:40:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L4_Z4_weekend_10-10-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z4> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L4> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 15 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "10:10:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L4_Z5_weekday_08-50-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z5> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L4> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 6,
+        10 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "08:50:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L4_Z5_weekend_12-30-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z5> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L4> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 15 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "12:30:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L4_Z6_weekday_07-40-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z6> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L4> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 8 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "07:40:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L4_Z6_weekday_08-10-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z6> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L4> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 10 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "08:10:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L4_Z6_weekend_10-30-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z6> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L4> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 12 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "10:30:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L4_Z7_weekday_07-20-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z7> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L4> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 6 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "07:20:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L4_Z7_weekday_07-50-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z7> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L4> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 8 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "07:50:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L4_Z7_weekday_12-10-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z7> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L4> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 6 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "12:10:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L4_Z8_weekday_07-50-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z8> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L4> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 6 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "07:50:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L5_Z1_weekday_09-10-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z1> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L5> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 6 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "09:10:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L5_Z1_weekend_08-30-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z1> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L5> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 10 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "08:30:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L5_Z1_weekend_12-40-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z1> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L5> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 12 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "12:40:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L5_Z2_weekday_07-50-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z2> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L5> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 10 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "07:50:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L5_Z2_weekend_07-00-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z2> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L5> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 6 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "07:00:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L5_Z2_weekend_12-40-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z2> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L5> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 12 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "12:40:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L5_Z3_weekday_07-30-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z3> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L5> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 8 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "07:30:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L5_Z3_weekday_10-20-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z3> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L5> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 6 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "10:20:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L5_Z3_weekday_11-10-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z3> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L5> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 10 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "11:10:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L5_Z3_weekday_12-20-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z3> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L5> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 6 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "12:20:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L5_Z3_weekend_09-40-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z3> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L5> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 12 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "09:40:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L5_Z4_weekend_08-50-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z4> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L5> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 10 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "08:50:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L5_Z4_weekend_09-20-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z4> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L5> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 12 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "09:20:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L5_Z5_weekday_09-00-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z5> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L5> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 10 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "09:00:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L5_Z5_weekday_09-20-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z5> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L5> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 6 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "09:20:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L5_Z5_weekday_12-40-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z5> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L5> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 10 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "12:40:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L5_Z5_weekend_08-50-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z5> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L5> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 12 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "08:50:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L5_Z6_weekday_10-00-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z6> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L5> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 6 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "10:00:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L5_Z6_weekday_11-10-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z6> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L5> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 6 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "11:10:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L5_Z6_weekend_08-50-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z6> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L5> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 6 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "08:50:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L5_Z6_weekend_10-40-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z6> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L5> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 12 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "10:40:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L5_Z7_weekday_11-40-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z7> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L5> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 10,
+        12 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "11:40:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L5_Z7_weekend_07-30-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z7> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L5> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 15 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "07:30:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L5_Z7_weekend_10-20-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z7> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L5> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 10 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "10:20:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L5_Z7_weekend_11-30-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z7> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L5> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 6 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "11:30:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L5_Z8_weekend_07-00-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z8> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L5> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 10 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "07:00:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L6_Z1_weekday_09-10-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z1> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L6> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 10 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "09:10:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L6_Z1_weekday_09-50-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z1> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L6> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 8,
+        10 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "09:50:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L6_Z1_weekday_12-20-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z1> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L6> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 15 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "12:20:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L6_Z1_weekend_08-20-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z1> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L6> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 10,
+        12 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "08:20:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L6_Z1_weekend_08-30-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z1> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L6> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 6 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "08:30:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L6_Z2_weekend_07-10-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z2> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L6> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 8 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "07:10:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L6_Z2_weekend_10-20-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z2> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L6> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 12 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "10:20:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L6_Z3_weekday_12-00-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z3> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L6> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 12 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "12:00:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L6_Z3_weekend_09-50-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z3> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L6> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 6 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "09:50:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L6_Z3_weekend_10-40-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z3> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L6> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 6 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "10:40:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L6_Z4_weekday_08-40-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z4> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L6> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 8 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "08:40:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L6_Z4_weekday_09-20-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z4> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L6> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 10 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "09:20:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L6_Z4_weekday_10-10-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z4> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L6> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 6 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "10:10:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L6_Z5_weekday_07-00-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z5> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L6> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 8 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "07:00:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L6_Z5_weekday_08-30-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z5> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L6> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 6 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "08:30:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L6_Z6_weekday_10-10-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z6> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L6> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 10 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "10:10:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L6_Z6_weekend_11-50-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z6> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L6> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 15 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "11:50:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L6_Z6_weekend_12-10-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z6> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L6> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 6 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "12:10:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L6_Z7_weekday_08-30-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z7> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L6> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 8 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "08:30:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L6_Z7_weekday_10-00-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z7> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L6> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 8 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "10:00:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L6_Z8_weekday_10-50-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z8> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L6> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 10 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "10:50:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L6_Z8_weekend_10-40-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z8> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L6> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 8 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "10:40:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L7_Z1_weekend_08-00-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z1> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L7> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 10 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "08:00:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L7_Z1_weekend_09-00-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z1> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L7> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 12 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "09:00:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L7_Z2_weekday_08-10-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z2> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L7> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 10 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "08:10:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L7_Z2_weekday_09-10-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z2> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L7> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 6 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "09:10:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L7_Z2_weekday_11-00-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z2> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L7> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 8 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "11:00:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L7_Z3_weekday_11-40-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z3> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L7> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 8 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "11:40:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L7_Z5_weekday_09-20-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z5> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L7> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 6 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "09:20:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L7_Z5_weekday_09-50-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z5> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L7> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 6 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "09:50:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L7_Z5_weekday_10-00-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z5> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L7> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 12 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "10:00:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L7_Z5_weekday_12-20-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z5> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L7> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 12 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "12:20:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L7_Z5_weekend_10-50-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z5> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L7> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 15 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "10:50:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L7_Z6_weekend_07-20-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z6> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L7> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 12 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "07:20:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L7_Z7_weekday_07-50-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z7> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L7> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 8 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "07:50:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L7_Z7_weekend_08-00-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z7> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L7> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 12 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "08:00:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L7_Z7_weekend_08-50-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z7> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L7> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 8 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "08:50:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L7_Z7_weekend_11-20-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z7> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L7> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 15 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "11:20:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L7_Z8_weekend_11-30-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z8> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L7> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 12 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "11:30:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L8_Z1_weekday_07-00-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z1> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L8> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 8 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "07:00:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L8_Z1_weekday_09-00-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z1> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L8> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 6 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "09:00:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L8_Z2_weekday_08-50-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z2> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L8> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 10 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "08:50:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L8_Z2_weekday_10-00-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z2> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L8> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 10 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "10:00:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L8_Z2_weekday_12-50-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z2> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L8> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 15 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "12:50:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L8_Z2_weekend_09-40-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z2> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L8> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 8 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "09:40:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L8_Z2_weekend_11-40-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z2> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L8> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 8 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "11:40:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L8_Z3_weekday_09-20-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z3> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L8> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 10 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "09:20:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L8_Z4_weekday_08-40-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z4> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L8> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 10 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "08:40:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L8_Z5_weekend_07-20-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z5> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L8> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 15 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "07:20:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L8_Z5_weekend_07-30-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z5> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L8> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 15 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "07:30:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L8_Z5_weekend_10-30-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z5> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L8> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 15 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "10:30:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L8_Z5_weekend_11-10-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z5> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L8> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 10 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "11:10:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L8_Z5_weekend_12-20-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z5> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L8> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 15 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "12:20:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L8_Z6_weekday_10-50-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z6> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L8> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 15 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "10:50:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L8_Z6_weekday_12-00-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z6> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L8> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 6 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "12:00:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L8_Z7_weekday_07-00-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z7> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L8> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 8 ;
+    mob:isPeakSchedule true ;
+    mob:scheduledTime "07:00:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L8_Z7_weekend_11-50-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z7> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L8> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 6 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "11:50:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L8_Z7_weekend_12-20-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z7> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L8> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 8 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "12:20:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L8_Z8_weekday_10-50-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z8> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L8> ;
+    mob:dayType "weekday" ;
+    mob:frequencyMinutes 10 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "10:50:00"^^xsd:time .
+
+<https://example.org/mobility/data/schedule/L8_Z8_weekend_10-10-00-000> a mob:Schedule ;
+    mob:appliesToZone <https://example.org/mobility/data/zone/Z8> ;
+    mob:belongsToRoute <https://example.org/mobility/data/route/L8> ;
+    mob:dayType "weekend" ;
+    mob:frequencyMinutes 15 ;
+    mob:isPeakSchedule false ;
+    mob:scheduledTime "10:10:00"^^xsd:time .
+

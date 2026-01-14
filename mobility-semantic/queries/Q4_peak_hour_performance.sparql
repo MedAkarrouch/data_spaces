@@ -1,0 +1,21 @@
+PREFIX mob: <https://purl.org/mobility/ontology#>
+
+SELECT ?isPeakHour (COUNT(?trip) AS ?totalTrips) (AVG(?delayMin) AS ?avgDelay)
+WHERE {
+  ?trip a mob:Trip ;
+        mob:hasDelayEvent/mob:delayMinutes ?delayMin .
+  
+  # Récupérer le contexte horaire via la performance agrégée (plus fiable)
+  ?perf a mob:AggregatedPerformance ;
+        mob:route ?route ;
+        mob:zone ?zone ;
+        mob:performanceHour ?hour .
+  
+  ?trip mob:operatesOnRoute ?route ;
+        mob:observedInZone ?zone .
+  
+  # Déduire si c'est une heure de pointe (ex. : 7-9h ou 17-19h)
+  BIND(IF((?hour >= 7 && ?hour <= 9) || (?hour >= 17 && ?hour <= 19), "peak", "off-peak") AS ?isPeakHour)
+}
+GROUP BY ?isPeakHour
+ORDER BY ?isPeakHour
